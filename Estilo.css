@@ -1,0 +1,37 @@
+/*Esta es la Hija de estilo o archivo .css*/
+/*este es el dise;o del body */
+body{
+    background-color:rgb(230, 205, 193) ;
+}
+
+td.Menu{
+    background-color: rgb(255, 255, 255);
+}
+td.Contenido{
+    background-color: rgb(255, 255, 255);
+}
+td .Baner{ background:url(imagenes.cc/IMAGEN1.jpg);}
+
+menu{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+.menu li{
+    float:left;
+}
+
+.menu li a{
+    display:block;
+    width:100px;
+    height:20px;
+    text-decoration:none;
+    text-align:center;
+    color: rgb(94, 70, 70);
+}
+
+.menu li a:hover{
+    background-color: rgb(235, 114, 231);
+    color: black;
+}
